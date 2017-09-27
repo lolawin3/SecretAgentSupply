@@ -227,9 +227,10 @@ footer p{
 		width: 90%;
     height: auto;
 	}
-	.watch, .glasses {
+	.watch, {
 		display: none;
 	}
+  
 	.product,
     .information	{
 		justify-content: space-around;

@@ -1,0 +1,48 @@
+header{
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.banner{
+  background-image: url('../images/moto.jpeg');
+  width: auto;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-around;
+  padding-right: 70px;
+  background-color: red;
+}
+
+nav li{
+  display: inline-block;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+.product{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.grid img{
+  padding: 20px;
+  border: 2px solid black;
+}
+
+footer{
+  background-color: black;
+}
+
+.copyright{
+  color: white;
+}

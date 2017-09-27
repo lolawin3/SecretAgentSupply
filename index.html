@@ -8,46 +8,75 @@
   </head>
 
   <body>
+    <!-- Company Header -->
     <header>
-      <div class="logo">
-        <img src="./resources/images/logo.png" alt="My Times logo spelled as M-Y-T"/>
-        <p>SECRET AGENT SUPPLY INC.</p>
+      <div class="container">
+        <img src="./resources/images/logo.png" alt="company logo"/>
+        <span>SECRET AGENT SUPPLY INC.</span>
       </div>
     </header>
-
-    <div class="content">
-      <div class="main banner">
-        <p id="new"> NEW ARRIVAL </p>
-        <p>SPORT BIKES AND <br>MOTORCYCLES</p>
+      <!-- Main banner -->
+      <div class="main">
+        <div class="container">
+          <div class="banner">
+            <h4> NEW ARRIVAL </h4>
+            <h1>SPORT BIKES AND <br>MOTORCYCLES</h1>
+          </div>
+        </div>
       </div>
-      <div class="navigation">
-        <nav>
-          <ul>
-            <li>  <a href="eyewear">Eyewear</a>  </li>
-            <li>  <a href="apparel">Apparel</a>  </li>
-            <li>  <a href="gadgets">Gadgets</a>  </li>
-            <li>  <a href="vehicles">Vehicles</a>  </li>
-            <li>  <a href="classes">Classes</a>  </li>
-            <li>  <a href="contact">Contact</a>  </li>
-          </ul>
+      <!-- Navigation bar -->
+        <nav role="navigation">
+          <div class="container">
+            <a class="main-nav" href="eyewear">Eyewear</a>
+            <a class="main-nav" href="apparel">Apparel</a>
+            <a class="main-nav" href="gadgets">Gadgets</a>
+            <a class="main-nav" href="vehicles">Vehicles</a>
+            <a class="main-nav" href="classes">Classes</a>
+            <a class="main-nav" href="contact">Contact</a>
+            <a class="mobile-nav" href="#">Menu</a>
+          </div>
         </nav>
+      <!-- Products and Business Information -->
+      <div class="container">
+        <div class="product">
+          <div class="spy pen">
+            <div class="pic-container">
+              <img class="pic" src="./resources/images/pen.png" alt="image of spy pen"/>
+            </div>
+            <span class="product-title">Exploding Pen</span>
+          </div>
+          <div class="spy watch">
+            <div class="pic-container">
+              <img class="pic" src="./resources/images/watch.png" alt="image of silver spy watch"/>
+            </div>
+            <span class="product-title">Cellular Watch</span>
+          </div>
+          <div class="spy glasses">
+            <div class="pic-container">
+              <img class="pic" src="./resources/images/glasses.png" alt="image of thermal spy glasses"/>
+            </div>
+            <span class="product-title">Thermal Glasses</span>
+          </div>
+        </div>
       </div>
-      <div class="product grid">
-        <img src="./resources/images/pen.png" alt="spy pen"/>
-        <img src="./resources/images/watch.png" alt="spy watch"/>
-        <img src="./resources/images/glasses.png" alt="spy glasses"/>
+      <!-- LOcation and hours of business Info -->
+      <div class="container">
+        <div class="information">
+          <div class="location">
+            <span class="info"> Location </span>
+            <p> -47.346436, 84.32354 </p>
+          </div>
+          <div class="hours">
+            <span class="info"> Hours </span>
+            <p> 0800 - 1800 </p>
+          </div>
+        </div>
       </div>
-      <div class="location hours">
-        <p> Location </p>
-        <p> Hours </p>
-        <p> -47.346436, 84.32354 </p>
-        <p> 0800 - 1800 </p>
-      </div>
-    </div>
+    <!-- Footer Section -->
     <footer>
-      <div class="copyright">
-        <p>&copy;  Copyright Secret Agent Supply Inc.</p>
-      </div>
+        <div class="container">
+          <p>&copy; Secret Agent Supply Inc.</p>
+        </div>
     </footer>
   </body>
 </html>

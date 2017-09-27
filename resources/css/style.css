@@ -71,7 +71,8 @@ nav a{
 nav .container {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;;
+	justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .main-nav {
@@ -98,6 +99,7 @@ nav .container {
 	border: 4px solid black;
 	padding: 2rem 0;
 	height: 9rem;
+  flex-wrap: wrap;
 }
 
 .product-title {
@@ -111,6 +113,7 @@ nav .container {
 	margin-top: 3rem;
 	display: flex;
 	justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .location,
@@ -144,4 +147,62 @@ footer p{
 .container {
 	max-width: 960px;
 	margin: 0 auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  body{
+      font-size: 16px;
+    }
+  .spy {
+		width: 47%;
+	}
+	.mobile-nav {
+		display: inline-block;
+    align-items: center;
+    justify-content: center;
+	}
+	.main-nav {
+		display: none;
+	}
+	.glasses {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 470px) {
+	.main {
+		height: 15rem;
+	}
+	.banner {
+		margin-top: 10rem;
+		padding: 1rem 2rem;
+		width: 100%;
+		height: 3rem;
+	}
+	.banner h1 {
+	    font-size: 1rem;
+	    font-weight: bold;
+    }
+    .banner h4 {
+	    font-size: 0.77rem;
+	    font-weight: bold;
+    }
+	.spy,
+    .location,
+    .hours	{
+		width: 90%;
+	}
+	.watch, .glasses {
+		display: none;
+	}
+	.product,
+    .information	{
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	footer .container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 }

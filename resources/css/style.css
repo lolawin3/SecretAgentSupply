@@ -225,6 +225,7 @@ footer p{
     .location,
     .hours	{
 		width: 90%;
+    height: auto;
 	}
 	.watch, .glasses {
 		display: none;
